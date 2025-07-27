@@ -8,3 +8,6 @@ Hệ thống so sánh số tiền người dùng nhập với giá trị ảnh d
 Nếu số tiền < giá trị ảnh → Tăng biến đếm (count up).
 Nếu số tiền ≥ giá trị ảnh → Giảm biến đếm (count down).
 Mục tiêu: Xây dựng một hệ thống trên blockchain để quản lý việc tạo ảnh, đánh giá giá trị, và tương tác của người dùng với cơ chế đếm tăng/giảm dựa trên số tiền đặt giá.
+<img width="3024" height="1056" alt="image" src="https://github.com/user-attachments/assets/138a43f6-2d0c-465e-be6b-dc9e4fbe44ee" />
+<img width="2900" height="669" alt="image" src="https://github.com/user-attachments/assets/6c8b0379-15df-46f8-b8d9-189d842c9bc4" />
+<img width="2839" height="772" alt="image" src="https://github.com/user-attachments/assets/dc8269bc-6a34-4bd5-985e-93ac101f6037" />
