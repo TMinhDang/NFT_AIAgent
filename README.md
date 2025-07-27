@@ -1,33 +1,20 @@
+NFT MARKETPLACE
 
-This project is built using the Clarity programming language on the Stacks blockchain, designed to manage image creation, valuation, and user interactions through a smart contract-based system.
-Components
-Agent 1: Image Creation
-A smart contract that generates or stores metadata for images, such as:
+The blockchain project uses the Clarity language on the Stacks blockchain, with the following components:
 
-URLs or
-IPFS hashes
+Agent 1 - Image Creation: A smart contract responsible for generating or storing information about an image (e.g., URL or hash on IPFS).
 
-Agent 2: Image Valuation
-A smart contract that assigns a monetary value to images, based on:
+Agent 2 - Image Evaluation: A smart contract that evaluates the monetary value of the image (simulated or based on specific logic, e.g., 100-500 USD/STX).
 
-Simulated logic or
-Predefined ranges (e.g., 100–500 USD/STX)
+User Mechanism:
 
-User Interaction Mechanism
+Users input the amount they are willing to pay to "purchase" the image.
 
-Users submit the amount they are willing to pay to "purchase" an image.
-The system compares the submitted amount with the value assigned by Agent 2:
-If the amount is less than the image’s value → Increments a counter (count up).
-If the amount is equal to or greater than the image’s value → Decrements the counter (count down).
+The system compares the user’s input amount with the image’s value determined by Agent 2:
 
-
-
-Objective
-To create a decentralized system on the Stacks blockchain that:
-
-Manages image creation and storage
-Evaluates image value
-Facilitates user interactions through a bid-based counting mechanism
+If the amount < image value → Increase the counter (count up).
+If the amount ≥ image value → Decrease the counter (count down).
+Objective: Build a blockchain-based system to manage image creation, value evaluation, and user interaction with a counting mechanism that increases or decreases based on the bid amount.
 
 
 <img width="3024" height="1056" alt="image" src="https://github.com/user-attachments/assets/138a43f6-2d0c-465e-be6b-dc9e4fbe44ee" />
