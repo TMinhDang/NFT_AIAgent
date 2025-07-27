@@ -1,20 +1,18 @@
-Dự án blockchain sử dụng ngôn ngữ Clarity trên Stacks blockchain, với các thành phần sau:
+The blockchain project uses the Clarity language on the Stacks blockchain, with the following components:
 
-Agent 1 - Tạo ảnh: Một smart contract chịu trách nhiệm tạo hoặc lưu trữ thông tin về một ảnh (ví dụ: URL hoặc hash trên IPFS).
+Agent 1 - Image Creation: A smart contract responsible for generating or storing information about an image (e.g., URL or hash on IPFS).
 
-Agent 2 - Đánh giá ảnh: Một smart contract đánh giá giá trị tiền của ảnh (giả lập hoặc dựa trên logic cụ thể, ví dụ: 100-500 USD/STX).
+Agent 2 - Image Evaluation: A smart contract that evaluates the monetary value of the image (simulated or based on specific logic, e.g., 100-500 USD/STX).
 
-Cơ chế người dùng:
+User Mechanism:
 
-Người dùng nhập số tiền họ muốn trả để "mua" ảnh.
+Users input the amount they are willing to pay to "purchase" the image.
 
-Hệ thống so sánh số tiền người dùng nhập với giá trị ảnh do Agent 2 đưa ra:
+The system compares the user’s input amount with the image’s value determined by Agent 2:
 
-Nếu số tiền < giá trị ảnh → Tăng biến đếm (count up).
-
-Nếu số tiền ≥ giá trị ảnh → Giảm biến đếm (count down).
-
-Mục tiêu: Xây dựng một hệ thống trên blockchain để quản lý việc tạo ảnh, đánh giá giá trị, và tương tác của người dùng với cơ chế đếm tăng/giảm dựa trên số tiền đặt giá.
+If the amount < image value → Increase the counter (count up).
+If the amount ≥ image value → Decrease the counter (count down).
+Objective: Build a blockchain-based system to manage image creation, value evaluation, and user interaction with a counting mechanism that increases or decreases based on the bid amount.
 
 <img width="3024" height="1056" alt="image" src="https://github.com/user-attachments/assets/138a43f6-2d0c-465e-be6b-dc9e4fbe44ee" />
 <img width="2900" height="669" alt="image" src="https://github.com/user-attachments/assets/6c8b0379-15df-46f8-b8d9-189d842c9bc4" />
